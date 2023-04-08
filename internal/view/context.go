@@ -120,5 +120,5 @@ func useContext(app *App, name string) error {
 		return err
 	}
 
-	return app.switchContext(name, true)
+	return app.switchContext(name)
 }
